@@ -31,8 +31,8 @@
 ### 勉強会資料
 
 <!-- TODO -->
-- [スライド形式]()
-- [ドキュメント形式]()
+- [スライド形式](https://hackmd.io/@vUVXjMmXTYu4hcxiNxyH3w/H1XIFZTr9)
+- [ドキュメント形式](https://hackmd.io/IQvspnN5ROO6B-i2SQQhtw)
 
 ### 演習回答例
 
