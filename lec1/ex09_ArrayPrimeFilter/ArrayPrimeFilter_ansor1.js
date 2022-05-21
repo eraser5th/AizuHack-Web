@@ -4,26 +4,26 @@ function test(f) {
   console.log([2, 11, 19, 23, 71], "=> 期待される値:", [2, 11, 19, 23, 71], ", 結果:", f([2, 11, 19, 23, 71]))
 }
 
-function ArrayPrimaryFilter(a) {
-  const primaryInA = []
+function ArrayPrimeFilter(a) {
+  const primeInA = []
   for (let i = 0; i < a.length; i = i + 1) {
-    let isPrimaryFrag = true
+    let isPrimeFrag = true
     const ai = a[i]
     if (ai === 2) {
-      primaryInA.push(ai)
+      primeInA.push(ai)
       continue
     }
     for (let j = 2; j < ai; j = j + 1) {
       if (ai % j === 0) {
-        isPrimaryFrag = false
+        isPrimeFrag = false
         break
       }
     }
-    if (isPrimaryFrag) {
-      primaryInA.push(ai)
+    if (isPrimeFrag) {
+      primeInA.push(ai)
     }
   }
-  return primaryInA
+  return primeInA
 }
 
-test(ArrayPrimaryFilter)
+test(ArrayprimeFilter)

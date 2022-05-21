@@ -4,7 +4,7 @@ function test(f) {
   console.log([2, 11, 19, 23, 71], "=> 期待される値:", [2, 11, 19, 23, 71], ", 結果:", f([2, 11, 19, 23, 71]))
 }
 
-function isPrimary(n) {
+function isPrime(n) {
   if (n === 2) true
   for (let i = 2; i < n; i = i + 1) {
     if (n % i === 0) return false
@@ -12,8 +12,8 @@ function isPrimary(n) {
   return true
 }
 
-function ArrayPrimaryFilter(a) {
-  return a.filter(isPrimary)
+function ArrayPrimeFilter(a) {
+  return a.filter(isPrime)
 }
 
-test(ArrayPrimaryFilter)
+test(ArrayPrimeFilter)
