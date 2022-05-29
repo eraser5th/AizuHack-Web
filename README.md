@@ -56,9 +56,8 @@
 
 ### 勉強会資料
 
-<!-- TODO -->
-- [スライド形式]()
-- [ドキュメント形式]()
+- [スライド形式](https://hackmd.io/@ERASER/SkdAIMarc)
+- [ドキュメント形式](https://hackmd.io/zEr4JEhQTTqPu-QJfkpyvQ?view)
 
 ### 演習回答例
 
